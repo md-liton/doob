@@ -1,0 +1,288 @@
+/* Dark Mode theme Start */
+body.dark_theme{
+    background: var(--color-dark);
+}
+body.dark_theme  h1 , h2 , h3 , h4 , h5 , h6{
+    color: #fff;
+}
+body.dark_theme #navbar.sticky_menu {
+    background: #010102;
+    
+}
+
+body.dark_theme .section_heading h3 {
+    background-color: var(--color-blackest);
+}
+
+body.dark_theme .section_heading h2 {
+    color: #fff;
+
+}
+
+body.dark_theme .section_heading p {
+    color: var(--color-body);
+
+}
+body.dark_theme .top {
+    background: var(--color-blackest);
+}
+
+body.dark_theme .top a {
+    color: #fff;
+}
+
+body.dark_theme .top:hover a {
+    color: #059DFF;
+}
+
+/* service */
+body.dark_theme #service::after {
+    background: var(--color-border);
+}
+
+body.dark_theme #service .item .text h4 a {
+    color: #fff;
+}
+body.dark_theme #service .item .text h4 a:hover {
+    color: var(--color-primary);
+    
+}
+
+body.dark_theme #service .item .text p {
+    padding: 0 40px;
+    color: #65676b;
+    font-size: var(--font-size-b1);
+}
+/* service */
+
+/* <<<<< Project start >>>>> */
+body.dark_theme #project::after {
+    background: var(--color-border);
+}
+body.dark_theme .project_btn button {
+    color: var(--color-body);
+}
+
+body.dark_theme .project_btn button.active {
+    background: var(--color-primary);
+    color: var(--color-white);
+
+}
+ body.dark_theme #project .project_item .info h5 a {
+    color: #fff;
+}
+
+ body.dark_theme #project .project_item .info h5 a:hover {
+    color: var(--color-primary);
+}
+
+body.dark_theme #project .project_item .info p {
+    color: var(--color-body);
+}
+
+/* <<<<< Project end >>>>> */
+
+/* video */
+body.dark_theme #video::after {
+    background: var(--color-border);
+}
+/* video */
+
+/* <<<<< Process start >>>>> */
+body.dark_theme #process::after {
+    background: var(--color-border);
+}
+
+body.dark_theme #process .timeline_main {
+    background: rgba(19, 19, 19, 0.4);
+}
+
+body.dark_theme .timeline_text .step_info h6 {
+    color: var(--color-body);
+}
+
+body.dark_theme .timeline_text .step_info h2 {
+    color: #fff;
+}
+
+body.dark_theme .timeline_text .step_info p {
+    color: var(--color-body);
+}
+
+body.dark_theme .timeline_text .gain_process h5 {
+    color: #fff;
+}
+
+body.dark_theme .timeline_text .gain_process p {
+    color: var(--color-body);
+}
+
+/* <<<<< Process end >>>>> */
+
+
+/* <<<<< Feedback start >>>>> */
+body.dark_theme #feedback::after {
+    background: var(--color-border);
+}
+
+
+body.dark_theme #feedback .feedback_info h4 {
+    color: var(--color-body);
+}
+
+body.dark_theme #feedback .feedback_info h3 {
+    color: var(--color-body);
+}
+
+body.dark_theme #feedback .feedback_info h5 {
+    color: #fff;
+
+}
+
+body.dark_theme #feedback .feedback_info p {
+    color: var(--color-body);
+
+}
+body.dark_theme #feedback .feedback_info::after {
+    color: var(--color-blackest);
+}
+
+body.dark_theme .feedback_arrow li:hover{
+    color:#fff;
+    background: var(--color-primary);
+}
+
+/* <<<<< Feedback end >>>>> */
+
+
+
+/* <<<<< News start >>>>> */
+
+
+body.dark_theme #news .news_item {
+    background-color: var(--color-blackest);
+}
+
+body.dark_theme #news .news_item p {
+    color: var(--color-body);
+}
+
+body.dark_theme #news .news_item p a span {
+    color: var(--color-body);
+}
+
+body.dark_theme #news .news_item p a span:hover {
+    color: var(--color-primary);
+}
+
+body.dark_theme #news .news_item h4 a {
+    color: #fff;
+}
+
+body.dark_theme #news .news_item h4:hover a {
+    color: var(--color-primary);
+}
+
+/* <<<<< News end >>>>> */
+
+
+
+/* <<<<< Purchase start >>>>> */
+
+body.dark_theme #purchase .purchase_main {
+    background-color: var(--color-blackest);
+
+}
+
+body.dark_theme #purchase .purchase_main h2 {
+    color: #fff;
+
+}
+
+body.dark_theme #purchase .purchase_main p {
+    color: #fff;
+
+}
+
+/* <<<<< Purchase end >>>>> */
+
+
+
+/* <<<<< Footer start >>>>> */
+body.dark_theme #footer {
+    background: var(--color-blackest);
+}
+body.dark_theme #footer .f-info h3 {
+    color: var(--color-body);
+
+}
+
+body.dark_theme .widget .widget_title h4 {
+    color: #fff;
+}
+
+body.dark_theme .widget .widget_item ul li a {
+    color: var(--color-body);
+}
+
+body.dark_theme .widget .widget_item ul li a:hover {
+    color: var(--color-primary);
+}
+
+body.dark_theme .widget .widget_item a:hover::after {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+body.dark_theme .f-head h4 {
+    color: #fff;
+}
+
+body.dark_theme .f-head h6 {
+    color: var(--color-body);
+}
+
+body.dark_theme .newsletter_form .email_input input {
+    border: 1px solid var(--color-body);
+    color: var(--color-body);
+}
+
+body.dark_theme .newsletter_form .submit_btn {
+    display: inline-block;
+}
+
+body.dark_theme .newsletter_form .submit_btn button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: all linear .3s;
+}
+
+/* <<<<< Footer end >>>>> */
+
+
+
+/* <<<<< Copyright start >>>>> */
+body.dark_theme #copyright {
+    background:var(--color-blackest);
+    border-top: 1px solid var(--color-border);
+}
+
+body.dark_theme #copyright .copyright_left ul li a {
+    color: var(--color-body);
+}
+
+body.dark_theme #copyright .copyright_left ul li a:hover {
+    color: var(--color-primary);
+}
+
+body.dark_theme .copyright_right .copyright_text p {
+    color: var(--color-body);
+}
+
+/* <<<<< Copyright end >>>>> */
+
+
+
+/* <<<<< All Common Css start >>>>> */
+/* <<<<< All Common Css end >>>>> */
+/* Dark Mode theme End */
